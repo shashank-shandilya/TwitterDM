@@ -1,0 +1,1462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0196428DFCAC9A5153F214F1611AD112 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F087AA6CCC1C22CA8BA2F4185EB47B2 /* SDImageCache.m */; };
+		034497951572877B39A1025DB9D7C649 /* UIScrollView+SLKAdditions.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 11B78CB3B473BA69ADC81FAF2A84CE66 /* UIScrollView+SLKAdditions.h */; };
+		0600E3490564271CEB1972319A69B137 /* SLKTextInputbar.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 54D798CC1D91485264BAD342C90841BD /* SLKTextInputbar.h */; };
+		06813D7138BCC6D7C3A51E2F72D90425 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */; };
+		096191DDB6A8780F5D4F7A48EA30786F /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C1374D6D95423BECF4B01E70A4792D6 /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D44688AB71467F68F16F47BDEBB8BEC /* SDWebImageFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = D3D85F3BDC98AE325709D26257B8D891 /* SDWebImageFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10B1075C84E514A646CCE18BA7D3BEFF /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD0AE58A889EE46BD2FC1291498A7AD /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1262717A8A73753B5A20DC2E3CEA73E8 /* SLKTextViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F4DDF87BAB165CB6F27B1EBE731086 /* SLKTextViewController.h */; };
+		1489DA595A434B3E7C93B9C6DEBC8CAC /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A71CEEBF04236C32D6F91C5A7CA4C259 /* UIButton+WebCache.m */; };
+		16C95154557F57F1F76CC9F83F53A470 /* SDWebImageGIFCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A62C1ED203E10442D731DB15B0BACCB /* SDWebImageGIFCoder.m */; };
+		16EACB41043B2043FEB2CD09E2D35B6C /* SDWebImageGIFCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 147E9F2CEC8E3312F442B0C9078297E1 /* SDWebImageGIFCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DECC801D59AA8B9872AB02F2C6124A0 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8982DD85FCE1762BA1DF076349FEAE45 /* SDWebImagePrefetcher.m */; };
+		1FE84D10EB125A0ABA428A60CA1A7813 /* SLKInputAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 61EFA40A7B1A6D6C1D9AE2C75F96871C /* SLKInputAccessoryView.h */; };
+		22D4894F81C557C686407E109486A065 /* SLKTextInputbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FCD76E480166B62ECEA3FE833B58DB /* SLKTextInputbar.m */; };
+		23E52D31D2188C977C3B930220E07C26 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A5955C39A88674FD8B42264F47C61E95 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A554751A351CF31AB7621E99C31E31D /* SDWebImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 615EDC0C879DB6CBF9A6BE4E569F7E90 /* SDWebImageCoder.m */; };
+		2AF44C898B28E3C39B5688E5A521EDAD /* UIView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B617A1BFC52C45F8F9B9EBB69CA65FF /* UIView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DE250F3934D4B85F02CF56535C6D4C7 /* SDWebImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = C74BC7DDAEFC7049BA9BD217C5F3D6B0 /* SDWebImageFrame.m */; };
+		2EF869EBAD3C638EF4CB67FCC6CB3D2E /* SLKTextView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EE59DC4B7499E4006886808902FD5F /* SLKTextView+SLKAdditions.m */; };
+		3084181075B4063F23242A9E05258FC4 /* SLKUIConstants.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = A09EF52715DB91F243C4CE04A9CC652B /* SLKUIConstants.h */; };
+		33EAB109BA05AF694A29E9A047E80AFD /* SLKTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = AFD95EEF512C6405D04DB00563313F4F /* SLKTextView.h */; };
+		3481CA93F5A50DD3B15ABA5C882F4B6A /* SlackTextViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC392A65AF65B0AB81148CBC388909D3 /* SlackTextViewController-dummy.m */; };
+		34B2952CC06C887BE477366AFD0C99D6 /* SDWebImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F1E94CBEC981A300CD68D7B2400287E /* SDWebImageCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		373311E4BBAFAECD9C2924A28477C32D /* UIView+SLKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C67D89DE6ADF868AE796DB02B129B15 /* UIView+SLKAdditions.h */; };
+		3F16F62FC961833E2694F9F2A4F72F89 /* Pods-TwitterDMTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 474B63E0E5BE14CDE16E53D39B4A106E /* Pods-TwitterDMTests-dummy.m */; };
+		3F3C04313CC8D3344CA4C6A08F99B376 /* Pods-TwitterDMUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA596197F2B615FF122BBC165D70E32 /* Pods-TwitterDMUITests-dummy.m */; };
+		432A3024884C702F8D99717CD777E1A2 /* SLKTypingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 87ADF0A93E45C0EC1274D023FF78B557 /* SLKTypingIndicatorView.m */; };
+		4638504CA553FF5F7C854493BD26EB2F /* UIView+SLKAdditions.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 1C67D89DE6ADF868AE796DB02B129B15 /* UIView+SLKAdditions.h */; };
+		4CBC187D33383FA909EA8EED0FE84217 /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = AF5A6A70219490885A7B07DB5D1F3602 /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51B7E3B90FA83384EA2960889DCF5045 /* SLKTextInputbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 54D798CC1D91485264BAD342C90841BD /* SLKTextInputbar.h */; };
+		52DCD80A2C4A2C889A7FF2EEC17E5B4A /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E4F2C1CD062FB292870862C6A56665 /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57A153D2B63C1907929D48FB7454B448 /* SLKTextView+SLKAdditions.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 824306C9A2F41A4F62AE8E6A4B6AD502 /* SLKTextView+SLKAdditions.h */; };
+		597DC23FB869A5959520EE32596EF67A /* SDAnimatedImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 84899093F79AE970D1FC48975F081E62 /* SDAnimatedImageRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D507802267959465A33AEDB8ED14A9D /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFD60C859C49FF9A185483C4F41ED73 /* UIImage+MultiFormat.m */; };
+		5F2EA130CB4C6951172F54037BB10AEA /* SlackTextViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57EB3AA531AD82869CD0EFD78173B1CC /* SlackTextViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60613F6CA7F28E74C222F3AAB815702A /* SDImageCacheConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A2673519254A6B5F77294EBB1E0931 /* SDImageCacheConfig.m */; };
+		608C4DCBFB4CE2CFCD4F4253F3A54DAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */; };
+		630652A69671B1EDBE5ECDDFD8FDE955 /* SDWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA78358DAF5EBFBDAAEB0AB1687541FB /* SDWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63CB4DF630DC4B5084CBB3C1998B6848 /* SLKTextView+SLKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 824306C9A2F41A4F62AE8E6A4B6AD502 /* SLKTextView+SLKAdditions.h */; };
+		6578DD966C2F53FDBDFB49FD05F61AFB /* SDWebImageCoderHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CB6F344A369132B079A25DF0AA655C8 /* SDWebImageCoderHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66D9A108F4A304D745704C0326147076 /* UIResponder+SLKAdditions.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 78F4A96990DB9A6A81910233B811271E /* UIResponder+SLKAdditions.h */; };
+		67D393B6F573265153C6478D182BD8B7 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBF631304B5D394FC2FD44C90416056 /* UIImageView+HighlightedWebCache.m */; };
+		698E18091C652EF0EF059D174A1BB530 /* SLKTextInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 2243CAE9FF1445C9FB34C4736A310354 /* SLKTextInput.h */; };
+		6A68EC8A49AE313358CD561A183723A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */; };
+		6C5C14DD95C71C1417953ACC7BA3B395 /* SLKTextInput.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 2243CAE9FF1445C9FB34C4736A310354 /* SLKTextInput.h */; };
+		6C6A51EC17A1C3C36D7D3F6D160C706B /* SLKTextViewController.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 37F4DDF87BAB165CB6F27B1EBE731086 /* SLKTextViewController.h */; };
+		6CC0909E10ADC3B05186671A32E93011 /* Pods-TwitterDM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0084B4ACC8F294C21C393907A28125F /* Pods-TwitterDM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		705751B75C7013BDF7E3336DF7095E97 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F4E35D9EA74FC379CA50DA7A3FEC847 /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70DCF04C0CEDE9BF54B4D2F70490A598 /* UIImage+ForceDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E83BD61BE9C27FBFA5542C667F0DF78 /* UIImage+ForceDecode.m */; };
+		7489E74B56BE7CDE312C099FF0F3DDBF /* SLKTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDEFBF1C818112FEEAF132AE7DDBDC8F /* SLKTextViewController.m */; };
+		74E6BD85FD46BB9AEF236C387713F910 /* SLKInputAccessoryView.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 61EFA40A7B1A6D6C1D9AE2C75F96871C /* SLKInputAccessoryView.h */; };
+		76A44E2E01D15119438F6F14D823048A /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CD72E98D058D8F8F8C84C1613352B9 /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78234EEB0FE6E33E10D0EA459DE56EB3 /* SLKInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC313D3B8003D1543650C0642EE21E18 /* SLKInputAccessoryView.m */; };
+		78B64C07F392DD065C696F753420DEF4 /* SDAnimatedImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF77E192AB260DAE3889B75A5445A75 /* SDAnimatedImageRep.m */; };
+		7C61B3A783D9E4BF3C3DBAEA28CC69ED /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = BA96E8DDA7086D0417B23AA3B62AC9F7 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E1F5AED3B5DAB8A5BA256EABBB56DA2 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7839CF2D92DB46AC4F738936A03CF119 /* SDWebImageDownloader.m */; };
+		818B656960A90DFD44807B9C258CBE27 /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9FEEC1C7ABF82651857FE6411B2BE5 /* SDWebImage-dummy.m */; };
+		81D75E91CD94EFEFBCFCB02E01FE6C80 /* SDWebImageTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9DF9837AAF3AEB0E923F7B6E36041B /* SDWebImageTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		829511D378D0F4D4600F8C862DCE831A /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 906E2AC9678F972693F546BB19E15062 /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82BBDD16E9FE931F4DEF3D80BFB5FBBE /* UIScrollView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3299104E94EF04A1D87247089914DF31 /* UIScrollView+SLKAdditions.m */; };
+		8F3EC69378C1C5F66A4A63A1677E09F1 /* SLKTypingIndicatorProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DEEB9761DA0F381B06DEC6BC024BADAB /* SLKTypingIndicatorProtocol.h */; };
+		8F8BBB24BDF261C28959C4204A68CEC0 /* SLKUIConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A09EF52715DB91F243C4CE04A9CC652B /* SLKUIConstants.h */; };
+		91134E1CDA3B102E9586CF0E6506CCF8 /* UIView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BFF064F09A191C2662844BF48D5DBC /* UIView+SLKAdditions.m */; };
+		990988EB40697AEC5FD08D8AAAF8D79B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */; };
+		9B9E0E802A81A41BC4E3B4F6329AAB75 /* SDWebImageCodersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3EAB6A71F007F13CC5AA4145390944 /* SDWebImageCodersManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CD8BF2C78DD9798551CE2D405717294 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 398880AA8B82585216C009B21C70263C /* SDWebImageManager.m */; };
+		9D2B54A09F3ECC271737B075EC12DA1D /* SDWebImageTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6977FCC0D2B68793695AC81FB471CE0D /* SDWebImageTransition.m */; };
+		9D714A49BB14590E536C9615E5D14CBD /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E26DFB327F6442CC7A4EEE9C2E68ED93 /* UIImageView+WebCache.m */; };
+		9F2E4C309D4E99D40F7B64C3DDEE3EDD /* NSImage+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CEB76FEF2D932F7BA2230A594C14BCB /* NSImage+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F8D460A87E3F9D40F82784628F2E9AB /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5974B4891700EDEC9B44B103C9CD3127 /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A171BDEB046EC9FB7AF9D05AFD986340 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F16DA06F2E9D39E25C62D4DF35EC39A /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7E13A9B4148F2A8AC09B60C627D40F7 /* SDWebImageCoderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DD747D352BAB4F9473A826D29DAB6768 /* SDWebImageCoderHelper.m */; };
+		AC11E3449DB1E17D5BC518DDFBDBC8EB /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F52DBD5E30C764B0B729C2E251292C /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACD355150D2FF54E8B2EC1A79A7678A4 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8315C220F158AE817030E812816B53F6 /* SDWebImageCompat.m */; };
+		B41057325548D7BF0F6DA5490CAE0839 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE6A83061B9FDAE3B30961ADFAD8579 /* NSData+ImageContentType.m */; };
+		B83ED7183D57BFC327AF0EF6F810AA2C /* UIView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DD94A7A941F40626BD92FE440D0D0726 /* UIView+WebCache.m */; };
+		B886A21482B2B78C1995AC48B6E862B9 /* SDWebImageImageIOCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = A3677B5718E64501467FA17F8918DE25 /* SDWebImageImageIOCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B89857894DEE0507946E174FBDD5B442 /* Pods-TwitterDMTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39A061B26EA0CAB4BAFCF1A38A831864 /* Pods-TwitterDMTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9D782B742AD3BF19B2FE9E7C262CC0D /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2F31539BF97B02C2564B8EB7604D7C /* SDWebImageDownloaderOperation.m */; };
+		BB0258CB24C5BD7B119EF0A7F905EE4E /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A2FC450101DD213275A5F47A4A01EC9 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC765FF594B08DE3C53511864F0A1BCF /* SLKTextInput+Implementation.m in Sources */ = {isa = PBXBuildFile; fileRef = F07B0993C782227C23546A096CB89CFF /* SLKTextInput+Implementation.m */; };
+		BDCF5F55C018963BFD05EC27D3ED6EFF /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9A7436F3E50A36F5BD42824834CB03 /* UIImage+GIF.m */; };
+		C11D5A32A084A5ACE6BF81838711B586 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */; };
+		C95A834BCA35F493098F8FC2A9953548 /* UIImage+ForceDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E19C221E27BAFF1CACF1B5CEA22A54B /* UIImage+ForceDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC895FCE39563DD31F3E7DE49085033E /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = D07A755E20624B3B494A087A395010D3 /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D63C39778730E2428EFF5BB93DD3B1EB /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B001A801DDDC5E2059C19ADB745D454 /* UIView+WebCacheOperation.m */; };
+		D835246158368E1E15D5B197ECB5BB24 /* SLKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 443CB58CA81158E2CD5E7211CB689154 /* SLKTextView.m */; };
+		D940D66EBC77B53FE45592CCEE4B896C /* UIResponder+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB64C63B07244AE02D221265BC5E81B /* UIResponder+SLKAdditions.m */; };
+		DB8BB416F90F74F90018C95D86283229 /* SDWebImageCodersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CA2A7FC4890C4E28B4A8290DDD7F7C /* SDWebImageCodersManager.m */; };
+		DC0C6323CBA4DA07718C072466C366A1 /* SDImageCacheConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 830F07C8EF46B2050D9A804CFEDD795D /* SDImageCacheConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEB42AF2E9C99A2F0FA13E3A06D44B4B /* NSButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 004154F67835F2A4433E82E4EC09DF6E /* NSButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E406DAE301984AB342C21BCBD5E9CB1B /* UIScrollView+SLKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B78CB3B473BA69ADC81FAF2A84CE66 /* UIScrollView+SLKAdditions.h */; };
+		E66C7E50A4C0B2A1380C7B1ECAF5F157 /* SLKTypingIndicatorProtocol.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = DEEB9761DA0F381B06DEC6BC024BADAB /* SLKTypingIndicatorProtocol.h */; };
+		E7B6199B2F2B5FBBBD0E09B7A91ED28F /* NSButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 479A7B85B189989AAE1E2CCB9A7CA2B0 /* NSButton+WebCache.m */; };
+		E9587B60CDEC4A142D49A6DEB37AD419 /* Pods-TwitterDMUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02580F7D8545C4B0AFAD9A3BA92BC810 /* Pods-TwitterDMUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9759CB95097AC4EF536C23E35C17FC3 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635A4BD1CEF7E623C71F97A54BFC3616 /* ImageIO.framework */; };
+		F165DFBFB582633B1C09D25BED02F090 /* Pods-TwitterDM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 412095A83E6C47DEF90F5B99BE031C2E /* Pods-TwitterDM-dummy.m */; };
+		F6455DE7021A443B4DEC94E70EDFBAED /* NSImage+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C587AC7C4C6315BC37C56F59989DC1 /* NSImage+WebCache.m */; };
+		F7E611AC898439679BFF76D64BCB7EBD /* SLKTypingIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7781D2B0F4129F3693FBDB00847920A3 /* SLKTypingIndicatorView.h */; };
+		F90B572A534B8E2A1897CE1307DA8BDD /* UIResponder+SLKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F4A96990DB9A6A81910233B811271E /* UIResponder+SLKAdditions.h */; };
+		FC261A6CAD2FCBF9FB7898B8422AA99D /* SLKTypingIndicatorView.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 7781D2B0F4129F3693FBDB00847920A3 /* SLKTypingIndicatorView.h */; };
+		FCFB591C71A11CDB502745533E2D4544 /* SLKTextView.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = AFD95EEF512C6405D04DB00563313F4F /* SLKTextView.h */; };
+		FF60678C13D3A75C528D80E7762E1101 /* SDWebImageImageIOCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC6B39A01F158423670431C5C72C0FB /* SDWebImageImageIOCoder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		162DDC01668F0DA66963A38C03065D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D24BF642D2B8ACBA5A0AAF327EC21404;
+			remoteInfo = SlackTextViewController;
+		};
+		4D64B8A1F58ABA65E15CD1085DE925CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5785F2C6C49E6FF5FDBBBBDE15BE77E1;
+			remoteInfo = SDWebImage;
+		};
+		74A24D16E00A7D161108CC1C2A78CB51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88743CB0C1023B57C84AAA18F62E3FE9;
+			remoteInfo = "Pods-TwitterDM";
+		};
+		76C1C8A04DD7C63594F38B86BCCAB6B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88743CB0C1023B57C84AAA18F62E3FE9;
+			remoteInfo = "Pods-TwitterDM";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		72EF5C4AC3D724FE19C8DB4690106D90 /* Copy . Public Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PUBLIC_HEADERS_FOLDER_PATH)/.";
+			dstSubfolderSpec = 16;
+			files = (
+				74E6BD85FD46BB9AEF236C387713F910 /* SLKInputAccessoryView.h in Copy . Public Headers */,
+				6C5C14DD95C71C1417953ACC7BA3B395 /* SLKTextInput.h in Copy . Public Headers */,
+				0600E3490564271CEB1972319A69B137 /* SLKTextInputbar.h in Copy . Public Headers */,
+				57A153D2B63C1907929D48FB7454B448 /* SLKTextView+SLKAdditions.h in Copy . Public Headers */,
+				FCFB591C71A11CDB502745533E2D4544 /* SLKTextView.h in Copy . Public Headers */,
+				6C6A51EC17A1C3C36D7D3F6D160C706B /* SLKTextViewController.h in Copy . Public Headers */,
+				E66C7E50A4C0B2A1380C7B1ECAF5F157 /* SLKTypingIndicatorProtocol.h in Copy . Public Headers */,
+				FC261A6CAD2FCBF9FB7898B8422AA99D /* SLKTypingIndicatorView.h in Copy . Public Headers */,
+				3084181075B4063F23242A9E05258FC4 /* SLKUIConstants.h in Copy . Public Headers */,
+				66D9A108F4A304D745704C0326147076 /* UIResponder+SLKAdditions.h in Copy . Public Headers */,
+				034497951572877B39A1025DB9D7C649 /* UIScrollView+SLKAdditions.h in Copy . Public Headers */,
+				4638504CA553FF5F7C854493BD26EB2F /* UIView+SLKAdditions.h in Copy . Public Headers */,
+			);
+			name = "Copy . Public Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		004154F67835F2A4433E82E4EC09DF6E /* NSButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSButton+WebCache.h"; path = "SDWebImage/NSButton+WebCache.h"; sourceTree = "<group>"; };
+		012BD76321994DE40F2272ABB473CF81 /* Pods-TwitterDMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitterDMTests.release.xcconfig"; sourceTree = "<group>"; };
+		02580F7D8545C4B0AFAD9A3BA92BC810 /* Pods-TwitterDMUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitterDMUITests-umbrella.h"; sourceTree = "<group>"; };
+		03EE59DC4B7499E4006886808902FD5F /* SLKTextView+SLKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SLKTextView+SLKAdditions.m"; path = "Source/SLKTextView+SLKAdditions.m"; sourceTree = "<group>"; };
+		0B08C802668E27855C808495117F76CC /* Pods-TwitterDMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitterDMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C670AC6ADD5BE2D9AEA40D861C17B6A /* Pods-TwitterDMUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitterDMUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0E024AF7818A4DB5EB2D6B54CFCFD8E3 /* Pods-TwitterDM-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitterDM-resources.sh"; sourceTree = "<group>"; };
+		0E6BB3C3A5F602DE1AD5AD70EEBA4465 /* Pods-TwitterDMUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitterDMUITests-resources.sh"; sourceTree = "<group>"; };
+		0F4E35D9EA74FC379CA50DA7A3FEC847 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
+		0FF77E192AB260DAE3889B75A5445A75 /* SDAnimatedImageRep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImageRep.m; path = SDWebImage/SDAnimatedImageRep.m; sourceTree = "<group>"; };
+		10D4EEA37B0828A1DF22648ECBA64857 /* SlackTextViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SlackTextViewController.modulemap; sourceTree = "<group>"; };
+		116BA8DA7D7FE2EA8F6E252E4E76ABCF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B78CB3B473BA69ADC81FAF2A84CE66 /* UIScrollView+SLKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SLKAdditions.h"; path = "Source/UIScrollView+SLKAdditions.h"; sourceTree = "<group>"; };
+		147E9F2CEC8E3312F442B0C9078297E1 /* SDWebImageGIFCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageGIFCoder.h; path = SDWebImage/SDWebImageGIFCoder.h; sourceTree = "<group>"; };
+		1753B903A7496A207F4116A4DB54DC5D /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2FC450101DD213275A5F47A4A01EC9 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
+		1ADA7401B863DC13F06399DADB17E7C8 /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDWebImage.modulemap; sourceTree = "<group>"; };
+		1C67D89DE6ADF868AE796DB02B129B15 /* UIView+SLKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SLKAdditions.h"; path = "Source/UIView+SLKAdditions.h"; sourceTree = "<group>"; };
+		2243CAE9FF1445C9FB34C4736A310354 /* SLKTextInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLKTextInput.h; path = Source/SLKTextInput.h; sourceTree = "<group>"; };
+		231BA30872467549738A83953E31C100 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24E14D83782036F8BAC84A5DF0698D25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		293BFC58A955428A4B4AFF8F5B90661D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B617A1BFC52C45F8F9B9EBB69CA65FF /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "SDWebImage/UIView+WebCache.h"; sourceTree = "<group>"; };
+		2C4DCE3391CA7BBB32A76A2316DAB05C /* Pods-TwitterDMTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitterDMTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E3EAB6A71F007F13CC5AA4145390944 /* SDWebImageCodersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCodersManager.h; path = SDWebImage/SDWebImageCodersManager.h; sourceTree = "<group>"; };
+		319DA019D25800D6A9DA3E84703FC51D /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = iOS/TwitterCore.framework; sourceTree = "<group>"; };
+		3299104E94EF04A1D87247089914DF31 /* UIScrollView+SLKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+SLKAdditions.m"; path = "Source/UIScrollView+SLKAdditions.m"; sourceTree = "<group>"; };
+		34FCD76E480166B62ECEA3FE833B58DB /* SLKTextInputbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLKTextInputbar.m; path = Source/SLKTextInputbar.m; sourceTree = "<group>"; };
+		37F4DDF87BAB165CB6F27B1EBE731086 /* SLKTextViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLKTextViewController.h; path = Source/SLKTextViewController.h; sourceTree = "<group>"; };
+		398880AA8B82585216C009B21C70263C /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+		39A061B26EA0CAB4BAFCF1A38A831864 /* Pods-TwitterDMTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitterDMTests-umbrella.h"; sourceTree = "<group>"; };
+		3ADEFA88BE3D73361827DF708DEBC0AF /* SlackTextViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlackTextViewController.xcconfig; sourceTree = "<group>"; };
+		3CB6F344A369132B079A25DF0AA655C8 /* SDWebImageCoderHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCoderHelper.h; path = SDWebImage/SDWebImageCoderHelper.h; sourceTree = "<group>"; };
+		3CD7E545CE3F72891CBD506A00F57CDB /* Pods-TwitterDM-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitterDM-acknowledgements.markdown"; sourceTree = "<group>"; };
+		412095A83E6C47DEF90F5B99BE031C2E /* Pods-TwitterDM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwitterDM-dummy.m"; sourceTree = "<group>"; };
+		443CB58CA81158E2CD5E7211CB689154 /* SLKTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLKTextView.m; path = Source/SLKTextView.m; sourceTree = "<group>"; };
+		45F52DBD5E30C764B0B729C2E251292C /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		46E4F2C1CD062FB292870862C6A56665 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		474B63E0E5BE14CDE16E53D39B4A106E /* Pods-TwitterDMTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwitterDMTests-dummy.m"; sourceTree = "<group>"; };
+		479A7B85B189989AAE1E2CCB9A7CA2B0 /* NSButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSButton+WebCache.m"; path = "SDWebImage/NSButton+WebCache.m"; sourceTree = "<group>"; };
+		4B001A801DDDC5E2059C19ADB745D454 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		4FB64C63B07244AE02D221265BC5E81B /* UIResponder+SLKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+SLKAdditions.m"; path = "Source/UIResponder+SLKAdditions.m"; sourceTree = "<group>"; };
+		549FA4FF7D95887B5DE7C8DAB9A408C5 /* SlackTextViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SlackTextViewController.framework; path = SlackTextViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54D798CC1D91485264BAD342C90841BD /* SLKTextInputbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLKTextInputbar.h; path = Source/SLKTextInputbar.h; sourceTree = "<group>"; };
+		57EB3AA531AD82869CD0EFD78173B1CC /* SlackTextViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlackTextViewController-umbrella.h"; sourceTree = "<group>"; };
+		58B4B28DB637E5BF852B9EE285FFA628 /* Pods_TwitterDMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitterDMUITests.framework; path = "Pods-TwitterDMUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5974B4891700EDEC9B44B103C9CD3127 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		5AD0AE58A889EE46BD2FC1291498A7AD /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		5C5187FB8AE1CF18896FA1A35266B3B9 /* Pods_TwitterDM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitterDM.framework; path = "Pods-TwitterDM.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		615EDC0C879DB6CBF9A6BE4E569F7E90 /* SDWebImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCoder.m; path = SDWebImage/SDWebImageCoder.m; sourceTree = "<group>"; };
+		61EFA40A7B1A6D6C1D9AE2C75F96871C /* SLKInputAccessoryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLKInputAccessoryView.h; path = Source/SLKInputAccessoryView.h; sourceTree = "<group>"; };
+		635A4BD1CEF7E623C71F97A54BFC3616 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		655E017C12B4C9EFCD65E3F1E03BAF9E /* Pods-TwitterDMUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TwitterDMUITests.modulemap"; sourceTree = "<group>"; };
+		6977FCC0D2B68793695AC81FB471CE0D /* SDWebImageTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageTransition.m; path = SDWebImage/SDWebImageTransition.m; sourceTree = "<group>"; };
+		6C21C50DB4B36B654924B3F84412C915 /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
+		6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6F1E94CBEC981A300CD68D7B2400287E /* SDWebImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCoder.h; path = SDWebImage/SDWebImageCoder.h; sourceTree = "<group>"; };
+		73A2673519254A6B5F77294EBB1E0931 /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = SDWebImage/SDImageCacheConfig.m; sourceTree = "<group>"; };
+		7781D2B0F4129F3693FBDB00847920A3 /* SLKTypingIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLKTypingIndicatorView.h; path = Source/SLKTypingIndicatorView.h; sourceTree = "<group>"; };
+		7839CF2D92DB46AC4F738936A03CF119 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		78F4A96990DB9A6A81910233B811271E /* UIResponder+SLKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+SLKAdditions.h"; path = "Source/UIResponder+SLKAdditions.h"; sourceTree = "<group>"; };
+		7AE6A83061B9FDAE3B30961ADFAD8579 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		7AFD60C859C49FF9A185483C4F41ED73 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		7C1374D6D95423BECF4B01E70A4792D6 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		7C1B8638DA5FFEB98131E8F973860772 /* Pods-TwitterDMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitterDMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7DD8080D8BE32B37AE44DFC6903CAEEC /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		7FBA117AAB1B927351E9FAD9C926C72A /* Pods_TwitterDMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitterDMTests.framework; path = "Pods-TwitterDMTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		824306C9A2F41A4F62AE8E6A4B6AD502 /* SLKTextView+SLKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SLKTextView+SLKAdditions.h"; path = "Source/SLKTextView+SLKAdditions.h"; sourceTree = "<group>"; };
+		830F07C8EF46B2050D9A804CFEDD795D /* SDImageCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheConfig.h; path = SDWebImage/SDImageCacheConfig.h; sourceTree = "<group>"; };
+		8315C220F158AE817030E812816B53F6 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
+		84899093F79AE970D1FC48975F081E62 /* SDAnimatedImageRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageRep.h; path = SDWebImage/SDAnimatedImageRep.h; sourceTree = "<group>"; };
+		85C587AC7C4C6315BC37C56F59989DC1 /* NSImage+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+WebCache.m"; path = "SDWebImage/NSImage+WebCache.m"; sourceTree = "<group>"; };
+		87ADF0A93E45C0EC1274D023FF78B557 /* SLKTypingIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLKTypingIndicatorView.m; path = Source/SLKTypingIndicatorView.m; sourceTree = "<group>"; };
+		8982DD85FCE1762BA1DF076349FEAE45 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		8B9A7436F3E50A36F5BD42824834CB03 /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
+		8CEB76FEF2D932F7BA2230A594C14BCB /* NSImage+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSImage+WebCache.h"; path = "SDWebImage/NSImage+WebCache.h"; sourceTree = "<group>"; };
+		8E83BD61BE9C27FBFA5542C667F0DF78 /* UIImage+ForceDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ForceDecode.m"; path = "SDWebImage/UIImage+ForceDecode.m"; sourceTree = "<group>"; };
+		906E2AC9678F972693F546BB19E15062 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A62C1ED203E10442D731DB15B0BACCB /* SDWebImageGIFCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageGIFCoder.m; path = SDWebImage/SDWebImageGIFCoder.m; sourceTree = "<group>"; };
+		9BE9BB2ACB6ABAAD66092395ABA94D1B /* TwitterKitResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = iOS/TwitterKit.framework/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		9E19C221E27BAFF1CACF1B5CEA22A54B /* UIImage+ForceDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ForceDecode.h"; path = "SDWebImage/UIImage+ForceDecode.h"; sourceTree = "<group>"; };
+		9F087AA6CCC1C22CA8BA2F4185EB47B2 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
+		9F16DA06F2E9D39E25C62D4DF35EC39A /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		A09EF52715DB91F243C4CE04A9CC652B /* SLKUIConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLKUIConstants.h; path = Source/SLKUIConstants.h; sourceTree = "<group>"; };
+		A3677B5718E64501467FA17F8918DE25 /* SDWebImageImageIOCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageImageIOCoder.h; path = SDWebImage/SDWebImageImageIOCoder.h; sourceTree = "<group>"; };
+		A5955C39A88674FD8B42264F47C61E95 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		A71CEEBF04236C32D6F91C5A7CA4C259 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		AB9DF9837AAF3AEB0E923F7B6E36041B /* SDWebImageTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageTransition.h; path = SDWebImage/SDWebImageTransition.h; sourceTree = "<group>"; };
+		ACBF631304B5D394FC2FD44C90416056 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		AD2F31539BF97B02C2564B8EB7604D7C /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		AF5A6A70219490885A7B07DB5D1F3602 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		AFD95EEF512C6405D04DB00563313F4F /* SLKTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLKTextView.h; path = Source/SLKTextView.h; sourceTree = "<group>"; };
+		B0BACFA29EE087E2E60BF7665C2C3A4E /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterShareExtensionUIResources.bundle; path = iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle; sourceTree = "<group>"; };
+		B5CA2A7FC4890C4E28B4A8290DDD7F7C /* SDWebImageCodersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCodersManager.m; path = SDWebImage/SDWebImageCodersManager.m; sourceTree = "<group>"; };
+		B7C60E9A0D81E57E52334F07C3D6C07C /* SlackTextViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlackTextViewController-prefix.pch"; sourceTree = "<group>"; };
+		B7F4FA15FAD6E2D0D168E9A3184BF7A8 /* Pods-TwitterDMTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitterDMTests-frameworks.sh"; sourceTree = "<group>"; };
+		B9EF45D8E79F25FE80096E769D4B26C6 /* Pods-TwitterDM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitterDM.release.xcconfig"; sourceTree = "<group>"; };
+		BA96E8DDA7086D0417B23AA3B62AC9F7 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		BFA436DCE54BE7D8183FF6DCD716D7F1 /* Pods-TwitterDM-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitterDM-frameworks.sh"; sourceTree = "<group>"; };
+		C08163D1730BB3F3BF87DA630C8738FD /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = iOS/TwitterKit.framework; sourceTree = "<group>"; };
+		C6CD72E98D058D8F8F8C84C1613352B9 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		C74BC7DDAEFC7049BA9BD217C5F3D6B0 /* SDWebImageFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageFrame.m; path = SDWebImage/SDWebImageFrame.m; sourceTree = "<group>"; };
+		CC392A65AF65B0AB81148CBC388909D3 /* SlackTextViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SlackTextViewController-dummy.m"; sourceTree = "<group>"; };
+		CDEFBF1C818112FEEAF132AE7DDBDC8F /* SLKTextViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLKTextViewController.m; path = Source/SLKTextViewController.m; sourceTree = "<group>"; };
+		CF9FEEC1C7ABF82651857FE6411B2BE5 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		CFA596197F2B615FF122BBC165D70E32 /* Pods-TwitterDMUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwitterDMUITests-dummy.m"; sourceTree = "<group>"; };
+		D07A755E20624B3B494A087A395010D3 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		D3D85F3BDC98AE325709D26257B8D891 /* SDWebImageFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageFrame.h; path = SDWebImage/SDWebImageFrame.h; sourceTree = "<group>"; };
+		D6BFF064F09A191C2662844BF48D5DBC /* UIView+SLKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SLKAdditions.m"; path = "Source/UIView+SLKAdditions.m"; sourceTree = "<group>"; };
+		DC313D3B8003D1543650C0642EE21E18 /* SLKInputAccessoryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SLKInputAccessoryView.m; path = Source/SLKInputAccessoryView.m; sourceTree = "<group>"; };
+		DD747D352BAB4F9473A826D29DAB6768 /* SDWebImageCoderHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCoderHelper.m; path = SDWebImage/SDWebImageCoderHelper.m; sourceTree = "<group>"; };
+		DD94A7A941F40626BD92FE440D0D0726 /* UIView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCache.m"; path = "SDWebImage/UIView+WebCache.m"; sourceTree = "<group>"; };
+		DEEB9761DA0F381B06DEC6BC024BADAB /* SLKTypingIndicatorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SLKTypingIndicatorProtocol.h; path = Source/SLKTypingIndicatorProtocol.h; sourceTree = "<group>"; };
+		E185B48F1397F355417F5443F80453E6 /* Pods-TwitterDM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TwitterDM.modulemap"; sourceTree = "<group>"; };
+		E26DFB327F6442CC7A4EEE9C2E68ED93 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		E6C5A6963936221D33DF00F957A3A587 /* Pods-TwitterDM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitterDM.debug.xcconfig"; sourceTree = "<group>"; };
+		E947BDF6C4B02D095FFB5ECE39728C56 /* Pods-TwitterDMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitterDMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBA916F23F35278C83095D18E41435D0 /* Pods-TwitterDMUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitterDMUITests-frameworks.sh"; sourceTree = "<group>"; };
+		EEC6B39A01F158423670431C5C72C0FB /* SDWebImageImageIOCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageImageIOCoder.m; path = SDWebImage/SDWebImageImageIOCoder.m; sourceTree = "<group>"; };
+		F0043AE218DF70E886E287A108DA94D2 /* Pods-TwitterDM-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitterDM-acknowledgements.plist"; sourceTree = "<group>"; };
+		F0084B4ACC8F294C21C393907A28125F /* Pods-TwitterDM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitterDM-umbrella.h"; sourceTree = "<group>"; };
+		F07B0993C782227C23546A096CB89CFF /* SLKTextInput+Implementation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SLKTextInput+Implementation.m"; path = "Source/SLKTextInput+Implementation.m"; sourceTree = "<group>"; };
+		F6424EF8432DCF73A1F1D0E2E32121E3 /* Pods-TwitterDMTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TwitterDMTests.modulemap"; sourceTree = "<group>"; };
+		F8C81A63353A33B13593FC67AD7D3C9B /* Pods-TwitterDMTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitterDMTests-resources.sh"; sourceTree = "<group>"; };
+		FA78358DAF5EBFBDAAEB0AB1687541FB /* SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-umbrella.h"; sourceTree = "<group>"; };
+		FAAC78DA7BAB99AB13300F9A9F7A365E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB28E1EC25FC3540BF4F4B2D4BFE1E1C /* Pods-TwitterDMTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitterDMTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD505AED384BC1A6994ECA7841597D65 /* Pods-TwitterDMUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitterDMUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43FC5EC56F4988663DC59E61C6B31963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11D5A32A084A5ACE6BF81838711B586 /* Foundation.framework in Frameworks */,
+				E9759CB95097AC4EF536C23E35C17FC3 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8BC854E0AF91A273299B58225A32FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608C4DCBFB4CE2CFCD4F4253F3A54DAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94AB9C5ABDCF99726A0678A9A6134303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A68EC8A49AE313358CD561A183723A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1D74DF2B528699A8C38EBCBF0FE8E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06813D7138BCC6D7C3A51E2F72D90425 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E44FD455731979416979103D513096 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				990988EB40697AEC5FD08D8AAAF8D79B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0026CC1761F1C19FAB1FD2753F7EF2A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				319DA019D25800D6A9DA3E84703FC51D /* TwitterCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		043CFE9E9E72DC9321E4C50635C7621B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C5187FB8AE1CF18896FA1A35266B3B9 /* Pods_TwitterDM.framework */,
+				7FBA117AAB1B927351E9FAD9C926C72A /* Pods_TwitterDMTests.framework */,
+				58B4B28DB637E5BF852B9EE285FFA628 /* Pods_TwitterDMUITests.framework */,
+				1753B903A7496A207F4116A4DB54DC5D /* SDWebImage.framework */,
+				549FA4FF7D95887B5DE7C8DAB9A408C5 /* SlackTextViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		117810FA4D2B6AF102653BD53610F299 /* SlackTextViewController */ = {
+			isa = PBXGroup;
+			children = (
+				61EFA40A7B1A6D6C1D9AE2C75F96871C /* SLKInputAccessoryView.h */,
+				DC313D3B8003D1543650C0642EE21E18 /* SLKInputAccessoryView.m */,
+				2243CAE9FF1445C9FB34C4736A310354 /* SLKTextInput.h */,
+				F07B0993C782227C23546A096CB89CFF /* SLKTextInput+Implementation.m */,
+				54D798CC1D91485264BAD342C90841BD /* SLKTextInputbar.h */,
+				34FCD76E480166B62ECEA3FE833B58DB /* SLKTextInputbar.m */,
+				AFD95EEF512C6405D04DB00563313F4F /* SLKTextView.h */,
+				443CB58CA81158E2CD5E7211CB689154 /* SLKTextView.m */,
+				824306C9A2F41A4F62AE8E6A4B6AD502 /* SLKTextView+SLKAdditions.h */,
+				03EE59DC4B7499E4006886808902FD5F /* SLKTextView+SLKAdditions.m */,
+				37F4DDF87BAB165CB6F27B1EBE731086 /* SLKTextViewController.h */,
+				CDEFBF1C818112FEEAF132AE7DDBDC8F /* SLKTextViewController.m */,
+				DEEB9761DA0F381B06DEC6BC024BADAB /* SLKTypingIndicatorProtocol.h */,
+				7781D2B0F4129F3693FBDB00847920A3 /* SLKTypingIndicatorView.h */,
+				87ADF0A93E45C0EC1274D023FF78B557 /* SLKTypingIndicatorView.m */,
+				A09EF52715DB91F243C4CE04A9CC652B /* SLKUIConstants.h */,
+				78F4A96990DB9A6A81910233B811271E /* UIResponder+SLKAdditions.h */,
+				4FB64C63B07244AE02D221265BC5E81B /* UIResponder+SLKAdditions.m */,
+				11B78CB3B473BA69ADC81FAF2A84CE66 /* UIScrollView+SLKAdditions.h */,
+				3299104E94EF04A1D87247089914DF31 /* UIScrollView+SLKAdditions.m */,
+				1C67D89DE6ADF868AE796DB02B129B15 /* UIView+SLKAdditions.h */,
+				D6BFF064F09A191C2662844BF48D5DBC /* UIView+SLKAdditions.m */,
+				51F6524C18DD0F4135A94543FFFD886E /* Support Files */,
+			);
+			name = SlackTextViewController;
+			path = SlackTextViewController;
+			sourceTree = "<group>";
+		};
+		1FADA36CBBEBF5DF6696194D87183478 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */,
+				635A4BD1CEF7E623C71F97A54BFC3616 /* ImageIO.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FADA36CBBEBF5DF6696194D87183478 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		510D9DD3D36D199C1FEF4D20260BCF62 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAAC78DA7BAB99AB13300F9A9F7A365E /* Info.plist */,
+				1ADA7401B863DC13F06399DADB17E7C8 /* SDWebImage.modulemap */,
+				6C21C50DB4B36B654924B3F84412C915 /* SDWebImage.xcconfig */,
+				CF9FEEC1C7ABF82651857FE6411B2BE5 /* SDWebImage-dummy.m */,
+				7DD8080D8BE32B37AE44DFC6903CAEEC /* SDWebImage-prefix.pch */,
+				FA78358DAF5EBFBDAAEB0AB1687541FB /* SDWebImage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDWebImage";
+			sourceTree = "<group>";
+		};
+		51F6524C18DD0F4135A94543FFFD886E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				231BA30872467549738A83953E31C100 /* Info.plist */,
+				10D4EEA37B0828A1DF22648ECBA64857 /* SlackTextViewController.modulemap */,
+				3ADEFA88BE3D73361827DF708DEBC0AF /* SlackTextViewController.xcconfig */,
+				CC392A65AF65B0AB81148CBC388909D3 /* SlackTextViewController-dummy.m */,
+				B7C60E9A0D81E57E52334F07C3D6C07C /* SlackTextViewController-prefix.pch */,
+				57EB3AA531AD82869CD0EFD78173B1CC /* SlackTextViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SlackTextViewController";
+			sourceTree = "<group>";
+		};
+		53D5F243A991997BF426A5C5038CDD91 /* TwitterCore */ = {
+			isa = PBXGroup;
+			children = (
+				0026CC1761F1C19FAB1FD2753F7EF2A2 /* Frameworks */,
+			);
+			name = TwitterCore;
+			path = TwitterCore;
+			sourceTree = "<group>";
+		};
+		6BEAE5082941FECA110DC42561484460 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F48CE5C9922E17F50967ADCAF19B26F1 /* Pods-TwitterDM */,
+				B13BC43F94E031FC6EA3FF0CC2EBF9CC /* Pods-TwitterDMTests */,
+				B5494845784F299BB3FDE53DD0344EB1 /* Pods-TwitterDMUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7455DEDD2C1B2F61963D2BC896154438 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9BE9BB2ACB6ABAAD66092395ABA94D1B /* TwitterKitResources.bundle */,
+				B0BACFA29EE087E2E60BF7665C2C3A4E /* TwitterShareExtensionUIResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		77DF55B83482D5AD4E9B3E9384DEFC87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C08163D1730BB3F3BF87DA630C8738FD /* TwitterKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				844D4C208AC72693861EB11B931214B5 /* Pods */,
+				043CFE9E9E72DC9321E4C50635C7621B /* Products */,
+				6BEAE5082941FECA110DC42561484460 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		844D4C208AC72693861EB11B931214B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFC64F77D2260151F1BF0F9856624C13 /* SDWebImage */,
+				117810FA4D2B6AF102653BD53610F299 /* SlackTextViewController */,
+				53D5F243A991997BF426A5C5038CDD91 /* TwitterCore */,
+				A1DE08AAD7ECF5B4D742DB0149CE97A2 /* TwitterKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92739DBEA54B03CAEE3C59B28CBF4FF0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				004154F67835F2A4433E82E4EC09DF6E /* NSButton+WebCache.h */,
+				479A7B85B189989AAE1E2CCB9A7CA2B0 /* NSButton+WebCache.m */,
+				9F16DA06F2E9D39E25C62D4DF35EC39A /* NSData+ImageContentType.h */,
+				7AE6A83061B9FDAE3B30961ADFAD8579 /* NSData+ImageContentType.m */,
+				8CEB76FEF2D932F7BA2230A594C14BCB /* NSImage+WebCache.h */,
+				85C587AC7C4C6315BC37C56F59989DC1 /* NSImage+WebCache.m */,
+				84899093F79AE970D1FC48975F081E62 /* SDAnimatedImageRep.h */,
+				0FF77E192AB260DAE3889B75A5445A75 /* SDAnimatedImageRep.m */,
+				5AD0AE58A889EE46BD2FC1291498A7AD /* SDImageCache.h */,
+				9F087AA6CCC1C22CA8BA2F4185EB47B2 /* SDImageCache.m */,
+				830F07C8EF46B2050D9A804CFEDD795D /* SDImageCacheConfig.h */,
+				73A2673519254A6B5F77294EBB1E0931 /* SDImageCacheConfig.m */,
+				6F1E94CBEC981A300CD68D7B2400287E /* SDWebImageCoder.h */,
+				615EDC0C879DB6CBF9A6BE4E569F7E90 /* SDWebImageCoder.m */,
+				3CB6F344A369132B079A25DF0AA655C8 /* SDWebImageCoderHelper.h */,
+				DD747D352BAB4F9473A826D29DAB6768 /* SDWebImageCoderHelper.m */,
+				2E3EAB6A71F007F13CC5AA4145390944 /* SDWebImageCodersManager.h */,
+				B5CA2A7FC4890C4E28B4A8290DDD7F7C /* SDWebImageCodersManager.m */,
+				AF5A6A70219490885A7B07DB5D1F3602 /* SDWebImageCompat.h */,
+				8315C220F158AE817030E812816B53F6 /* SDWebImageCompat.m */,
+				7C1374D6D95423BECF4B01E70A4792D6 /* SDWebImageDownloader.h */,
+				7839CF2D92DB46AC4F738936A03CF119 /* SDWebImageDownloader.m */,
+				C6CD72E98D058D8F8F8C84C1613352B9 /* SDWebImageDownloaderOperation.h */,
+				AD2F31539BF97B02C2564B8EB7604D7C /* SDWebImageDownloaderOperation.m */,
+				D3D85F3BDC98AE325709D26257B8D891 /* SDWebImageFrame.h */,
+				C74BC7DDAEFC7049BA9BD217C5F3D6B0 /* SDWebImageFrame.m */,
+				147E9F2CEC8E3312F442B0C9078297E1 /* SDWebImageGIFCoder.h */,
+				9A62C1ED203E10442D731DB15B0BACCB /* SDWebImageGIFCoder.m */,
+				A3677B5718E64501467FA17F8918DE25 /* SDWebImageImageIOCoder.h */,
+				EEC6B39A01F158423670431C5C72C0FB /* SDWebImageImageIOCoder.m */,
+				906E2AC9678F972693F546BB19E15062 /* SDWebImageManager.h */,
+				398880AA8B82585216C009B21C70263C /* SDWebImageManager.m */,
+				1A2FC450101DD213275A5F47A4A01EC9 /* SDWebImageOperation.h */,
+				46E4F2C1CD062FB292870862C6A56665 /* SDWebImagePrefetcher.h */,
+				8982DD85FCE1762BA1DF076349FEAE45 /* SDWebImagePrefetcher.m */,
+				AB9DF9837AAF3AEB0E923F7B6E36041B /* SDWebImageTransition.h */,
+				6977FCC0D2B68793695AC81FB471CE0D /* SDWebImageTransition.m */,
+				BA96E8DDA7086D0417B23AA3B62AC9F7 /* UIButton+WebCache.h */,
+				A71CEEBF04236C32D6F91C5A7CA4C259 /* UIButton+WebCache.m */,
+				9E19C221E27BAFF1CACF1B5CEA22A54B /* UIImage+ForceDecode.h */,
+				8E83BD61BE9C27FBFA5542C667F0DF78 /* UIImage+ForceDecode.m */,
+				0F4E35D9EA74FC379CA50DA7A3FEC847 /* UIImage+GIF.h */,
+				8B9A7436F3E50A36F5BD42824834CB03 /* UIImage+GIF.m */,
+				D07A755E20624B3B494A087A395010D3 /* UIImage+MultiFormat.h */,
+				7AFD60C859C49FF9A185483C4F41ED73 /* UIImage+MultiFormat.m */,
+				A5955C39A88674FD8B42264F47C61E95 /* UIImageView+HighlightedWebCache.h */,
+				ACBF631304B5D394FC2FD44C90416056 /* UIImageView+HighlightedWebCache.m */,
+				45F52DBD5E30C764B0B729C2E251292C /* UIImageView+WebCache.h */,
+				E26DFB327F6442CC7A4EEE9C2E68ED93 /* UIImageView+WebCache.m */,
+				2B617A1BFC52C45F8F9B9EBB69CA65FF /* UIView+WebCache.h */,
+				DD94A7A941F40626BD92FE440D0D0726 /* UIView+WebCache.m */,
+				5974B4891700EDEC9B44B103C9CD3127 /* UIView+WebCacheOperation.h */,
+				4B001A801DDDC5E2059C19ADB745D454 /* UIView+WebCacheOperation.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		A1DE08AAD7ECF5B4D742DB0149CE97A2 /* TwitterKit */ = {
+			isa = PBXGroup;
+			children = (
+				77DF55B83482D5AD4E9B3E9384DEFC87 /* Frameworks */,
+				7455DEDD2C1B2F61963D2BC896154438 /* Resources */,
+			);
+			name = TwitterKit;
+			path = TwitterKit;
+			sourceTree = "<group>";
+		};
+		B13BC43F94E031FC6EA3FF0CC2EBF9CC /* Pods-TwitterDMTests */ = {
+			isa = PBXGroup;
+			children = (
+				116BA8DA7D7FE2EA8F6E252E4E76ABCF /* Info.plist */,
+				F6424EF8432DCF73A1F1D0E2E32121E3 /* Pods-TwitterDMTests.modulemap */,
+				FB28E1EC25FC3540BF4F4B2D4BFE1E1C /* Pods-TwitterDMTests-acknowledgements.markdown */,
+				2C4DCE3391CA7BBB32A76A2316DAB05C /* Pods-TwitterDMTests-acknowledgements.plist */,
+				474B63E0E5BE14CDE16E53D39B4A106E /* Pods-TwitterDMTests-dummy.m */,
+				B7F4FA15FAD6E2D0D168E9A3184BF7A8 /* Pods-TwitterDMTests-frameworks.sh */,
+				F8C81A63353A33B13593FC67AD7D3C9B /* Pods-TwitterDMTests-resources.sh */,
+				39A061B26EA0CAB4BAFCF1A38A831864 /* Pods-TwitterDMTests-umbrella.h */,
+				0B08C802668E27855C808495117F76CC /* Pods-TwitterDMTests.debug.xcconfig */,
+				012BD76321994DE40F2272ABB473CF81 /* Pods-TwitterDMTests.release.xcconfig */,
+			);
+			name = "Pods-TwitterDMTests";
+			path = "Target Support Files/Pods-TwitterDMTests";
+			sourceTree = "<group>";
+		};
+		B5494845784F299BB3FDE53DD0344EB1 /* Pods-TwitterDMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24E14D83782036F8BAC84A5DF0698D25 /* Info.plist */,
+				655E017C12B4C9EFCD65E3F1E03BAF9E /* Pods-TwitterDMUITests.modulemap */,
+				0C670AC6ADD5BE2D9AEA40D861C17B6A /* Pods-TwitterDMUITests-acknowledgements.markdown */,
+				FD505AED384BC1A6994ECA7841597D65 /* Pods-TwitterDMUITests-acknowledgements.plist */,
+				CFA596197F2B615FF122BBC165D70E32 /* Pods-TwitterDMUITests-dummy.m */,
+				EBA916F23F35278C83095D18E41435D0 /* Pods-TwitterDMUITests-frameworks.sh */,
+				0E6BB3C3A5F602DE1AD5AD70EEBA4465 /* Pods-TwitterDMUITests-resources.sh */,
+				02580F7D8545C4B0AFAD9A3BA92BC810 /* Pods-TwitterDMUITests-umbrella.h */,
+				E947BDF6C4B02D095FFB5ECE39728C56 /* Pods-TwitterDMUITests.debug.xcconfig */,
+				7C1B8638DA5FFEB98131E8F973860772 /* Pods-TwitterDMUITests.release.xcconfig */,
+			);
+			name = "Pods-TwitterDMUITests";
+			path = "Target Support Files/Pods-TwitterDMUITests";
+			sourceTree = "<group>";
+		};
+		BFC64F77D2260151F1BF0F9856624C13 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				92739DBEA54B03CAEE3C59B28CBF4FF0 /* Core */,
+				510D9DD3D36D199C1FEF4D20260BCF62 /* Support Files */,
+			);
+			name = SDWebImage;
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		F48CE5C9922E17F50967ADCAF19B26F1 /* Pods-TwitterDM */ = {
+			isa = PBXGroup;
+			children = (
+				293BFC58A955428A4B4AFF8F5B90661D /* Info.plist */,
+				E185B48F1397F355417F5443F80453E6 /* Pods-TwitterDM.modulemap */,
+				3CD7E545CE3F72891CBD506A00F57CDB /* Pods-TwitterDM-acknowledgements.markdown */,
+				F0043AE218DF70E886E287A108DA94D2 /* Pods-TwitterDM-acknowledgements.plist */,
+				412095A83E6C47DEF90F5B99BE031C2E /* Pods-TwitterDM-dummy.m */,
+				BFA436DCE54BE7D8183FF6DCD716D7F1 /* Pods-TwitterDM-frameworks.sh */,
+				0E024AF7818A4DB5EB2D6B54CFCFD8E3 /* Pods-TwitterDM-resources.sh */,
+				F0084B4ACC8F294C21C393907A28125F /* Pods-TwitterDM-umbrella.h */,
+				E6C5A6963936221D33DF00F957A3A587 /* Pods-TwitterDM.debug.xcconfig */,
+				B9EF45D8E79F25FE80096E769D4B26C6 /* Pods-TwitterDM.release.xcconfig */,
+			);
+			name = "Pods-TwitterDM";
+			path = "Target Support Files/Pods-TwitterDM";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28068D54793D4523BA3D62B857EDFF39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2EA130CB4C6951172F54037BB10AEA /* SlackTextViewController-umbrella.h in Headers */,
+				1FE84D10EB125A0ABA428A60CA1A7813 /* SLKInputAccessoryView.h in Headers */,
+				698E18091C652EF0EF059D174A1BB530 /* SLKTextInput.h in Headers */,
+				51B7E3B90FA83384EA2960889DCF5045 /* SLKTextInputbar.h in Headers */,
+				63CB4DF630DC4B5084CBB3C1998B6848 /* SLKTextView+SLKAdditions.h in Headers */,
+				33EAB109BA05AF694A29E9A047E80AFD /* SLKTextView.h in Headers */,
+				1262717A8A73753B5A20DC2E3CEA73E8 /* SLKTextViewController.h in Headers */,
+				8F3EC69378C1C5F66A4A63A1677E09F1 /* SLKTypingIndicatorProtocol.h in Headers */,
+				F7E611AC898439679BFF76D64BCB7EBD /* SLKTypingIndicatorView.h in Headers */,
+				8F8BBB24BDF261C28959C4204A68CEC0 /* SLKUIConstants.h in Headers */,
+				F90B572A534B8E2A1897CE1307DA8BDD /* UIResponder+SLKAdditions.h in Headers */,
+				E406DAE301984AB342C21BCBD5E9CB1B /* UIScrollView+SLKAdditions.h in Headers */,
+				373311E4BBAFAECD9C2924A28477C32D /* UIView+SLKAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A9660400DEF32BF18D7995DBC45F2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC0909E10ADC3B05186671A32E93011 /* Pods-TwitterDM-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96372FB2CFA869F6E9717F8A67028E83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB42AF2E9C99A2F0FA13E3A06D44B4B /* NSButton+WebCache.h in Headers */,
+				A171BDEB046EC9FB7AF9D05AFD986340 /* NSData+ImageContentType.h in Headers */,
+				9F2E4C309D4E99D40F7B64C3DDEE3EDD /* NSImage+WebCache.h in Headers */,
+				597DC23FB869A5959520EE32596EF67A /* SDAnimatedImageRep.h in Headers */,
+				10B1075C84E514A646CCE18BA7D3BEFF /* SDImageCache.h in Headers */,
+				DC0C6323CBA4DA07718C072466C366A1 /* SDImageCacheConfig.h in Headers */,
+				630652A69671B1EDBE5ECDDFD8FDE955 /* SDWebImage-umbrella.h in Headers */,
+				34B2952CC06C887BE477366AFD0C99D6 /* SDWebImageCoder.h in Headers */,
+				6578DD966C2F53FDBDFB49FD05F61AFB /* SDWebImageCoderHelper.h in Headers */,
+				9B9E0E802A81A41BC4E3B4F6329AAB75 /* SDWebImageCodersManager.h in Headers */,
+				4CBC187D33383FA909EA8EED0FE84217 /* SDWebImageCompat.h in Headers */,
+				096191DDB6A8780F5D4F7A48EA30786F /* SDWebImageDownloader.h in Headers */,
+				76A44E2E01D15119438F6F14D823048A /* SDWebImageDownloaderOperation.h in Headers */,
+				0D44688AB71467F68F16F47BDEBB8BEC /* SDWebImageFrame.h in Headers */,
+				16EACB41043B2043FEB2CD09E2D35B6C /* SDWebImageGIFCoder.h in Headers */,
+				B886A21482B2B78C1995AC48B6E862B9 /* SDWebImageImageIOCoder.h in Headers */,
+				829511D378D0F4D4600F8C862DCE831A /* SDWebImageManager.h in Headers */,
+				BB0258CB24C5BD7B119EF0A7F905EE4E /* SDWebImageOperation.h in Headers */,
+				52DCD80A2C4A2C889A7FF2EEC17E5B4A /* SDWebImagePrefetcher.h in Headers */,
+				81D75E91CD94EFEFBCFCB02E01FE6C80 /* SDWebImageTransition.h in Headers */,
+				7C61B3A783D9E4BF3C3DBAEA28CC69ED /* UIButton+WebCache.h in Headers */,
+				C95A834BCA35F493098F8FC2A9953548 /* UIImage+ForceDecode.h in Headers */,
+				705751B75C7013BDF7E3336DF7095E97 /* UIImage+GIF.h in Headers */,
+				CC895FCE39563DD31F3E7DE49085033E /* UIImage+MultiFormat.h in Headers */,
+				23E52D31D2188C977C3B930220E07C26 /* UIImageView+HighlightedWebCache.h in Headers */,
+				AC11E3449DB1E17D5BC518DDFBDBC8EB /* UIImageView+WebCache.h in Headers */,
+				2AF44C898B28E3C39B5688E5A521EDAD /* UIView+WebCache.h in Headers */,
+				9F8D460A87E3F9D40F82784628F2E9AB /* UIView+WebCacheOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BC1F600BAEE96CE6F555FCC8B68816 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9587B60CDEC4A142D49A6DEB37AD419 /* Pods-TwitterDMUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE18E70BC50400D0851AF7E729132852 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89857894DEE0507946E174FBDD5B442 /* Pods-TwitterDMTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5785F2C6C49E6FF5FDBBBBDE15BE77E1 /* SDWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AF1954907B5CC2BB24C52C3EBB92E9A /* Build configuration list for PBXNativeTarget "SDWebImage" */;
+			buildPhases = (
+				8CF111AE710F0344E1BEE33E75B61FDD /* Sources */,
+				43FC5EC56F4988663DC59E61C6B31963 /* Frameworks */,
+				96372FB2CFA869F6E9717F8A67028E83 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDWebImage;
+			productName = SDWebImage;
+			productReference = 1753B903A7496A207F4116A4DB54DC5D /* SDWebImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		758D289FE854948E32BD1CF537FF689D /* Pods-TwitterDMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CDE4B7A99EB611DD1B3542877472BF /* Build configuration list for PBXNativeTarget "Pods-TwitterDMUITests" */;
+			buildPhases = (
+				FD5B2B70F0C19C54E15AE90579D52AD4 /* Sources */,
+				B9E44FD455731979416979103D513096 /* Frameworks */,
+				F0BC1F600BAEE96CE6F555FCC8B68816 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7DF21B322A5D8321C9CB64E1E3C7190 /* PBXTargetDependency */,
+			);
+			name = "Pods-TwitterDMUITests";
+			productName = "Pods-TwitterDMUITests";
+			productReference = 58B4B28DB637E5BF852B9EE285FFA628 /* Pods_TwitterDMUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88743CB0C1023B57C84AAA18F62E3FE9 /* Pods-TwitterDM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC0530246140D846F606201D037912C9 /* Build configuration list for PBXNativeTarget "Pods-TwitterDM" */;
+			buildPhases = (
+				17F6E14E6AF868599F027AB732DCAA1B /* Sources */,
+				9B1D74DF2B528699A8C38EBCBF0FE8E6 /* Frameworks */,
+				59A9660400DEF32BF18D7995DBC45F2A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3CC20A254EB45BE76C01D181CDFA509 /* PBXTargetDependency */,
+				AD3E38595A967E3A3B60989E6E034242 /* PBXTargetDependency */,
+			);
+			name = "Pods-TwitterDM";
+			productName = "Pods-TwitterDM";
+			productReference = 5C5187FB8AE1CF18896FA1A35266B3B9 /* Pods_TwitterDM.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D363250DFAB5DFDBB493946E9134902 /* Pods-TwitterDMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22AA13CED11B5F3BBC6DE4E32EF6759 /* Build configuration list for PBXNativeTarget "Pods-TwitterDMTests" */;
+			buildPhases = (
+				29DA6A5B75AA4DD1C5D6D2C04441DC80 /* Sources */,
+				94AB9C5ABDCF99726A0678A9A6134303 /* Frameworks */,
+				FE18E70BC50400D0851AF7E729132852 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE19939DC3ABD712F23C2B50608871BD /* PBXTargetDependency */,
+			);
+			name = "Pods-TwitterDMTests";
+			productName = "Pods-TwitterDMTests";
+			productReference = 7FBA117AAB1B927351E9FAD9C926C72A /* Pods_TwitterDMTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D24BF642D2B8ACBA5A0AAF327EC21404 /* SlackTextViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43CA0CDD5A1F39C6DFBFF6B5E93C1A08 /* Build configuration list for PBXNativeTarget "SlackTextViewController" */;
+			buildPhases = (
+				1D2F258565A963CF77AC271A036A0165 /* Sources */,
+				6B8BC854E0AF91A273299B58225A32FF /* Frameworks */,
+				28068D54793D4523BA3D62B857EDFF39 /* Headers */,
+				72EF5C4AC3D724FE19C8DB4690106D90 /* Copy . Public Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlackTextViewController;
+			productName = SlackTextViewController;
+			productReference = 549FA4FF7D95887B5DE7C8DAB9A408C5 /* SlackTextViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 043CFE9E9E72DC9321E4C50635C7621B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88743CB0C1023B57C84AAA18F62E3FE9 /* Pods-TwitterDM */,
+				9D363250DFAB5DFDBB493946E9134902 /* Pods-TwitterDMTests */,
+				758D289FE854948E32BD1CF537FF689D /* Pods-TwitterDMUITests */,
+				5785F2C6C49E6FF5FDBBBBDE15BE77E1 /* SDWebImage */,
+				D24BF642D2B8ACBA5A0AAF327EC21404 /* SlackTextViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17F6E14E6AF868599F027AB732DCAA1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F165DFBFB582633B1C09D25BED02F090 /* Pods-TwitterDM-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D2F258565A963CF77AC271A036A0165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3481CA93F5A50DD3B15ABA5C882F4B6A /* SlackTextViewController-dummy.m in Sources */,
+				78234EEB0FE6E33E10D0EA459DE56EB3 /* SLKInputAccessoryView.m in Sources */,
+				BC765FF594B08DE3C53511864F0A1BCF /* SLKTextInput+Implementation.m in Sources */,
+				22D4894F81C557C686407E109486A065 /* SLKTextInputbar.m in Sources */,
+				2EF869EBAD3C638EF4CB67FCC6CB3D2E /* SLKTextView+SLKAdditions.m in Sources */,
+				D835246158368E1E15D5B197ECB5BB24 /* SLKTextView.m in Sources */,
+				7489E74B56BE7CDE312C099FF0F3DDBF /* SLKTextViewController.m in Sources */,
+				432A3024884C702F8D99717CD777E1A2 /* SLKTypingIndicatorView.m in Sources */,
+				D940D66EBC77B53FE45592CCEE4B896C /* UIResponder+SLKAdditions.m in Sources */,
+				82BBDD16E9FE931F4DEF3D80BFB5FBBE /* UIScrollView+SLKAdditions.m in Sources */,
+				91134E1CDA3B102E9586CF0E6506CCF8 /* UIView+SLKAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DA6A5B75AA4DD1C5D6D2C04441DC80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F16F62FC961833E2694F9F2A4F72F89 /* Pods-TwitterDMTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF111AE710F0344E1BEE33E75B61FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B6199B2F2B5FBBBD0E09B7A91ED28F /* NSButton+WebCache.m in Sources */,
+				B41057325548D7BF0F6DA5490CAE0839 /* NSData+ImageContentType.m in Sources */,
+				F6455DE7021A443B4DEC94E70EDFBAED /* NSImage+WebCache.m in Sources */,
+				78B64C07F392DD065C696F753420DEF4 /* SDAnimatedImageRep.m in Sources */,
+				0196428DFCAC9A5153F214F1611AD112 /* SDImageCache.m in Sources */,
+				60613F6CA7F28E74C222F3AAB815702A /* SDImageCacheConfig.m in Sources */,
+				818B656960A90DFD44807B9C258CBE27 /* SDWebImage-dummy.m in Sources */,
+				2A554751A351CF31AB7621E99C31E31D /* SDWebImageCoder.m in Sources */,
+				A7E13A9B4148F2A8AC09B60C627D40F7 /* SDWebImageCoderHelper.m in Sources */,
+				DB8BB416F90F74F90018C95D86283229 /* SDWebImageCodersManager.m in Sources */,
+				ACD355150D2FF54E8B2EC1A79A7678A4 /* SDWebImageCompat.m in Sources */,
+				7E1F5AED3B5DAB8A5BA256EABBB56DA2 /* SDWebImageDownloader.m in Sources */,
+				B9D782B742AD3BF19B2FE9E7C262CC0D /* SDWebImageDownloaderOperation.m in Sources */,
+				2DE250F3934D4B85F02CF56535C6D4C7 /* SDWebImageFrame.m in Sources */,
+				16C95154557F57F1F76CC9F83F53A470 /* SDWebImageGIFCoder.m in Sources */,
+				FF60678C13D3A75C528D80E7762E1101 /* SDWebImageImageIOCoder.m in Sources */,
+				9CD8BF2C78DD9798551CE2D405717294 /* SDWebImageManager.m in Sources */,
+				1DECC801D59AA8B9872AB02F2C6124A0 /* SDWebImagePrefetcher.m in Sources */,
+				9D2B54A09F3ECC271737B075EC12DA1D /* SDWebImageTransition.m in Sources */,
+				1489DA595A434B3E7C93B9C6DEBC8CAC /* UIButton+WebCache.m in Sources */,
+				70DCF04C0CEDE9BF54B4D2F70490A598 /* UIImage+ForceDecode.m in Sources */,
+				BDCF5F55C018963BFD05EC27D3ED6EFF /* UIImage+GIF.m in Sources */,
+				5D507802267959465A33AEDB8ED14A9D /* UIImage+MultiFormat.m in Sources */,
+				67D393B6F573265153C6478D182BD8B7 /* UIImageView+HighlightedWebCache.m in Sources */,
+				9D714A49BB14590E536C9615E5D14CBD /* UIImageView+WebCache.m in Sources */,
+				B83ED7183D57BFC327AF0EF6F810AA2C /* UIView+WebCache.m in Sources */,
+				D63C39778730E2428EFF5BB93DD3B1EB /* UIView+WebCacheOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5B2B70F0C19C54E15AE90579D52AD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3C04313CC8D3344CA4C6A08F99B376 /* Pods-TwitterDMUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD3E38595A967E3A3B60989E6E034242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SlackTextViewController;
+			target = D24BF642D2B8ACBA5A0AAF327EC21404 /* SlackTextViewController */;
+			targetProxy = 162DDC01668F0DA66963A38C03065D5A /* PBXContainerItemProxy */;
+		};
+		B7DF21B322A5D8321C9CB64E1E3C7190 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TwitterDM";
+			target = 88743CB0C1023B57C84AAA18F62E3FE9 /* Pods-TwitterDM */;
+			targetProxy = 76C1C8A04DD7C63594F38B86BCCAB6B6 /* PBXContainerItemProxy */;
+		};
+		D3CC20A254EB45BE76C01D181CDFA509 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 5785F2C6C49E6FF5FDBBBBDE15BE77E1 /* SDWebImage */;
+			targetProxy = 4D64B8A1F58ABA65E15CD1085DE925CA /* PBXContainerItemProxy */;
+		};
+		FE19939DC3ABD712F23C2B50608871BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TwitterDM";
+			target = 88743CB0C1023B57C84AAA18F62E3FE9 /* Pods-TwitterDM */;
+			targetProxy = 74A24D16E00A7D161108CC1C2A78CB51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08C9CE9EAB05553A2860001F0797584B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6C5A6963936221D33DF00F957A3A587 /* Pods-TwitterDM.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitterDM/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitterDM/Pods-TwitterDM.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0B4CD842ECB207CFB388C17A507FDD7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9EF45D8E79F25FE80096E769D4B26C6 /* Pods-TwitterDM.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitterDM/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitterDM/Pods-TwitterDM.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1BBB2A2C1F24F12710E42AABD3C7E211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 012BD76321994DE40F2272ABB473CF81 /* Pods-TwitterDMTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitterDMTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitterDMTests/Pods-TwitterDMTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		28828E8787CF7D1B23A4CBBF5D3C4715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ADEFA88BE3D73361827DF708DEBC0AF /* SlackTextViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SlackTextViewController/SlackTextViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlackTextViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlackTextViewController/SlackTextViewController.modulemap";
+				PRODUCT_MODULE_NAME = SlackTextViewController;
+				PRODUCT_NAME = SlackTextViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2A66D101F36D3F31558E84678720E10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C1B8638DA5FFEB98131E8F973860772 /* Pods-TwitterDMUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitterDMUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitterDMUITests/Pods-TwitterDMUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30D948AE62C04225F8DEF8734A4C5A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5E404B49D1C41A7CC025FB04E0C9D6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C21C50DB4B36B654924B3F84412C915 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				PRODUCT_MODULE_NAME = SDWebImage;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E88537B08ED4D6EB44DBA7BC8D56A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B885C2F16D36C911FD415E08E56C9428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ADEFA88BE3D73361827DF708DEBC0AF /* SlackTextViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SlackTextViewController/SlackTextViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlackTextViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlackTextViewController/SlackTextViewController.modulemap";
+				PRODUCT_MODULE_NAME = SlackTextViewController;
+				PRODUCT_NAME = SlackTextViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE3CA9DBB7F5001D5AF4254B4DF44259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B08C802668E27855C808495117F76CC /* Pods-TwitterDMTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitterDMTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitterDMTests/Pods-TwitterDMTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEE772A404C2CE4D1E4A7D38BD41F3CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C21C50DB4B36B654924B3F84412C915 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				PRODUCT_MODULE_NAME = SDWebImage;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2B98AD427DB304FA74F1704ED0A8829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E947BDF6C4B02D095FFB5ECE39728C56 /* Pods-TwitterDMUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitterDMUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitterDMUITests/Pods-TwitterDMUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E88537B08ED4D6EB44DBA7BC8D56A35 /* Debug */,
+				30D948AE62C04225F8DEF8734A4C5A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43CA0CDD5A1F39C6DFBFF6B5E93C1A08 /* Build configuration list for PBXNativeTarget "SlackTextViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28828E8787CF7D1B23A4CBBF5D3C4715 /* Debug */,
+				B885C2F16D36C911FD415E08E56C9428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF1954907B5CC2BB24C52C3EBB92E9A /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E404B49D1C41A7CC025FB04E0C9D6A0 /* Debug */,
+				BEE772A404C2CE4D1E4A7D38BD41F3CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87CDE4B7A99EB611DD1B3542877472BF /* Build configuration list for PBXNativeTarget "Pods-TwitterDMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2B98AD427DB304FA74F1704ED0A8829 /* Debug */,
+				2A66D101F36D3F31558E84678720E10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C22AA13CED11B5F3BBC6DE4E32EF6759 /* Build configuration list for PBXNativeTarget "Pods-TwitterDMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3CA9DBB7F5001D5AF4254B4DF44259 /* Debug */,
+				1BBB2A2C1F24F12710E42AABD3C7E211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC0530246140D846F606201D037912C9 /* Build configuration list for PBXNativeTarget "Pods-TwitterDM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08C9CE9EAB05553A2860001F0797584B /* Debug */,
+				0B4CD842ECB207CFB388C17A507FDD7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
